@@ -1,0 +1,134 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ZQOORT CHATT",
+    "collectionId": "d76d0ada-2366-485a-bf07-cb0431321891",
+    "dateExported": "2025-05-31T00:26:35.022Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "63b8f5d8-c5d9-4f6d-83c4-416721db39a6",
+            "colId": "d76d0ada-2366-485a-bf07-cb0431321891",
+            "containerId": "",
+            "name": "signup",
+            "url": "http://localhost:5001/api/auth/signup",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-05-30T23:51:06.309Z",
+            "modified": "2025-05-30T23:59:13.365Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"fullName\": \"qwer\",\r\n  \"email\": \"user@example.com\",\r\n  \"password\": \"password123\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a2f4033b-c7d5-45fa-b5dc-59da61102230",
+            "colId": "d76d0ada-2366-485a-bf07-cb0431321891",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:5001/api/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-05-30T23:51:15.173Z",
+            "modified": "2025-05-31T00:00:42.996Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c0d21ce2-925d-44b3-bbda-7ec214a26da4",
+            "colId": "d76d0ada-2366-485a-bf07-cb0431321891",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://localhost:5001/api/auth/logout?Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODNhNDY1MTEwNWE3NmZlMTAzYTRiYWQiLCJpYXQiOjE3NDg2NDk2NDIsImV4cCI6MTc0OTI1NDQ0Mn0.bj20GdASipOlxfnKfCWQMxtBRWvMUT2r7Apq4nLXz8k",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-05-30T23:51:20.788Z",
+            "modified": "2025-05-31T00:02:52.219Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODNhNDY1MTEwNWE3NmZlMTAzYTRiYWQiLCJpYXQiOjE3NDg2NDk2NDIsImV4cCI6MTc0OTI1NDQ0Mn0.bj20GdASipOlxfnKfCWQMxtBRWvMUT2r7Apq4nLXz8k",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "a77ebab1-7960-499d-9e3e-c3dbb1fec087",
+            "colId": "d76d0ada-2366-485a-bf07-cb0431321891",
+            "containerId": "",
+            "name": "update-profile",
+            "url": "http://localhost:5001/api/auth/update-profile",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2025-05-30T23:51:26.951Z",
+            "modified": "2025-05-31T00:08:48.999Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"profilePic\":\"https://randomuser.me/api/portraits/women/1.jpg\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "42fc9833-1e75-4cb7-9bc4-1afff5b10fcf",
+            "colId": "d76d0ada-2366-485a-bf07-cb0431321891",
+            "containerId": "",
+            "name": "Check Auth",
+            "url": "http://localhost:5001/api/auth/check",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-05-30T23:51:33.060Z",
+            "modified": "2025-05-31T00:11:02.022Z",
+            "headers": []
+        },
+        {
+            "_id": "e8ad8752-106a-46c4-8f7a-db951b332509",
+            "colId": "d76d0ada-2366-485a-bf07-cb0431321891",
+            "containerId": "",
+            "name": "Get Users for Sidebar ",
+            "url": "http://localhost:5001/api/messages/users",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-05-30T23:51:38.941Z",
+            "modified": "2025-05-31T00:15:33.997Z",
+            "headers": []
+        },
+        {
+            "_id": "8d915af0-4821-4441-8838-3853fe6e32b4",
+            "colId": "d76d0ada-2366-485a-bf07-cb0431321891",
+            "containerId": "",
+            "name": "Get Messages ",
+            "url": "http://localhost:5001/api/messages/683a33c5479e0cab19b95c8b",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2025-05-31T00:16:06.811Z",
+            "modified": "2025-05-31T00:24:29.926Z",
+            "headers": []
+        },
+        {
+            "_id": "b93667aa-352d-4e3e-a098-e4b4be1bbe4e",
+            "colId": "d76d0ada-2366-485a-bf07-cb0431321891",
+            "containerId": "",
+            "name": "Send Message",
+            "url": "http://localhost:5001/api/messages/send/683a33c5479e0cab19b95c8b",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2025-05-31T00:20:36.600Z",
+            "modified": "2025-05-31T00:24:11.107Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"text\": \"Hello there!\",\r\n  \"image\":\"https://randomuser.me/api/portraits/women/2.jpg\"\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "_BZK4YteA0E4I5IHnCpQ454e17uIcnaDa1OLvnpve3wMWhdrrN7BRi0uDmO8imLmy3lAh60p1J6GJoBWSA0EWQ"
+}

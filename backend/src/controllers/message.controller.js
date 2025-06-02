@@ -53,7 +53,7 @@ export const sendMessage = async (req, res) => {
        try {
         // Upload base64 image to cloudinary
         const uploadResponse = await cloudinary.uploader.upload(image, {
-             timeout: 120000, // 120 seconds (2 minutes) timeout
+            // timeout: 120000, // 120 seconds (2 minutes) timeout
              resource_type: "auto" // handles both images and videos
 });
         imageUrl = uploadResponse.secure_url;
